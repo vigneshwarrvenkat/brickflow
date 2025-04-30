@@ -12,6 +12,9 @@ class DuplicateClustersDefinitionError(Exception):
 
 # Not an enum but collection of constants, generated via script
 class Runtimes:
+    RUNTIME_16_2_X_SCALA2_12_LTS = "16.2.x-scala2.12"
+    RUNTIME_16_1_X_SCALA2_12_LTS = "16.1.x-scala2.12"
+    RUNTIME_16_0_X_SCALA2_12_LTS = "16.0.x-scala2.12"
     RUNTIME_15_4_X_SCALA2_12_LTS = "15.4.x-scala2.12"
     RUNTIME_15_4_X_PHOTON_SCALA2_12_LTS = "15.4.x-photon-scala2.12"
     RUNTIME_15_4_X_GPU_ML_SCALA2_12_LTS = "15.4.x-gpu-ml-scala2.12"
